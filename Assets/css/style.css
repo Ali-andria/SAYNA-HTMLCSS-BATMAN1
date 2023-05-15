@@ -1,0 +1,182 @@
+/*****************************************************************
+** - 01 - Default
+** - 02 - Navbar
+** - 03 - Home + Scroll
+** - 04 - Personnage Section
+** - 05 - Nemesis Section
+** - 06 - Allies Section
+** - 07 - Justice Section
+** - 08 - Multimedia Slider
+** - 09 - Bande Annonce Section
+** - 10 - Contact Section
+** - 11 - Footer
+*****************************************************************/
+
+/**************************************
+ ** - 01 - Default
+ **************************************/
+ @font-face {
+   font-family: 'Rajdhani';
+   src: url(../);
+ }
+
+ @font-face {
+   font-family: 'SpaceGrotesk-bold';
+   src: url(../Police/SpaceGrotesk-bold.ttf);
+ }
+
+ @font-face {
+   font-family: 'SpaceGrotestk-Regular';
+   src: url(../Police/SpaceGrotestk-Regular.ttf);
+ }
+
+ :root {
+   --ct-yellow-light: #ffff00;
+   --ct-yellow-dark: #f8f184;
+   --ct-blue: #195875;
+   --ct-red-light: #B11313;
+   --ct-dark: #0d0e09;
+   --ct-gray-light: #eddebf;
+   --ct-red-dark: #890008;
+   --ct-gray-dark: #c4c4c4;
+   --ct-dark-brown: #000000;
+   --ct-white: #ffffff;  
+ }
+
+ * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+ }
+ 
+ .body  {
+  align-items: center;
+ }
+
+ img  {
+   max-width: 100%;
+   height: auto;
+ }
+
+ ul  {
+   padding: 0;
+   margin: 0;
+   list-style: none;
+ }
+
+ /**************************************
+ ** - 02 - Navbar
+ **************************************/
+ .batman-nav {
+   background-color: black;
+   padding-top: 50px;
+   padding-bottom: 100px;  
+   padding-left: 200px;
+   display: flex;
+}
+
+.batman-nav .navbar {
+	padding-right: 0;
+	padding-top: 0;
+	padding-left: 0;
+	padding-bottom: 0;
+}
+
+.batman-nav .navbar .navbar-nav .nav-item a {
+	font-size: 25px;
+	font-weight: 500;
+	color: #ffffff;
+	text-transform: uppercase;
+  text-decoration: underline;
+  margin-left: auto;
+ }
+/**************************************
+ ** - 03 - Home + Scroll
+ **************************************/
+
+ /**************************************
+ ** - 04 - Personnage Section
+ **************************************/
+
+/**************************************
+ ** - 05 - Nemesis Section
+ **************************************/
+
+ /**************************************
+ ** - 06 - Allies Section
+ **************************************/
+
+ /**************************************
+ ** - 07 - Justice Section
+ **************************************/
+
+ /**************************************
+ ** - 08 - Multimedia Slider
+ **************************************/
+
+ /**************************************
+ ** - 09 - Bande Annonce Section
+ **************************************/
+
+/**************************************
+ ** - 10 - Contact Section
+ **************************************/
+ select {
+    appearance: none;
+    outline: 0;
+    box-shadow: none;
+    border: 0;
+    background: white;
+    flex: 1;
+    padding: 0 .5em;
+    cursor: pointer;
+    font-size: 1em;
+    font-family: 'Open sans', sans-serif;
+ }
+
+ select::-ms-expand  {
+    display: none;
+ }
+
+ .select  {
+    position: relative;
+    display: flex;
+    width: 20em;
+    height: 3em;
+    line-height: 3;
+    background: white;
+    overflow: hidden;
+    border-radius: .25em;
+ }
+
+ .select::after  {
+    content: '\25BC';
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0 1em;
+    cursor: pointer;
+    pointer-events: none;
+    transition: .25s all ease;
+ }
+
+/**************************************
+ ** - 11 - footer
+ **************************************/
+.circle {
+    display: block;
+    border: 2px solid blue;
+    border-radius: 50%;
+    height: 10px;
+    width: 10px;
+    margin: 0;
+}
+
+.circle1 {
+    display: block;
+    background: blue;
+    border-radius: 50%;
+    height: 10px;
+    width: 10px;
+    margin: 0;
+}
